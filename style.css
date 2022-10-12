@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* === Section one starts here== */
+
+.parent1 {
+  width: 100%;
+  height: 710px;
+  display: flex;
+}
+
+.maincont {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid yellowgreen;
+  height: 100%;
+  width: 55%;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  font-family: "Varta";
+  font-style: normal;
+  font-weight: 10;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.7);
+}
+
+ul {
+  display: flex;
+}
+
+.antic {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.antic h3 {
+  color: #a06056;
+  font-size: 34px;
+  line-height: 25px;
+}
+
+.home {
+  font-size: xx-small;
+  color: #a06056;
+}
+
+.eleg {
+  margin: 40px 0;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 70px;
+  color: #a06056;
+}
+
+.wedo {
+  font-family: "Varta";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(112, 100, 88, 0.8);
+}
+
+.content-text {
+  width: 50%;
+  height: 100%;
+  background: #F3EEE8;
+}
+
+.icon-holder {
+  border: 2px solid #a06056;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-holder i {
+  color: #a06056;
+}
+
+.content2 {
+  margin: 60px 0;
+}
+
+/* === Section one ends here== */
+
+/* === Section one right starts here== */
+
+.content-img {
+  width: 50%;
+  background: url(./img/header.png);
+  background-repeat: no-repeat;
+}
+
+.ichol {
+  width: 34px;
+  height: 34px;
+  color: #ffff;
+  border: 2px solid #ffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ichol i {
+  transform: rotateY(180deg);
+}
+
+/* .link-hol{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+/* === Section one right ends here== */
+
+
+/* <!-- section two starts here --> */
+
+.parent2{
+    background: hwb(33 91% 5%);
+    border: 3px solid brown;
+    display: flex;
+}
+
+.left-content {
+  width: 50%;
+  border: 3px solid black;
+  padding: 30px;
+}
+
+.cont-hold {
+    border: 3px solid #a06056;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cont {
+  font-family: merriweather;
+  color: #706458;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+.link-hold {
+  color: #a06056;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 30;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  line-height: 60px;
+}
+
+.link-hold i{
+    padding-left: 5px;
+}
+
+/* section two right starts here */
+
+.cont-holder{
+  /* display: flex; */
+  padding: 40px 0;
+}
+
+.onecon{
+  display: flex;
+}
+
+.twocon{
+  display: flex;
+}
+.con h6{
+  color: #a06056;
+  font-family: 'Varta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+}
+
+.con-text{
+  color: rgba(112, 100, 88, 0.9);
+  font-family: 'Varta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* section two right ends here */
+
+/* <!-- section two ends here --> */

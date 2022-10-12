@@ -1,0 +1,99 @@
+@media screen and (max-width: 1100px) {
+
+    /* ==Section one starts here== */
+    .parent1 {
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .parent1 p{
+    color: #ffff;
+
+  }
+  .content-text {
+    background: url(./img/header.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+
+  img{
+      width: 100%;
+    height: 100%;
+  }
+  .content-img {
+      content: none;
+      width: 0px;
+    height: 0;
+}
+
+.maincont{
+  width: 100%;
+}
+
+
+.icon-holder{
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #ffff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+}
+
+.icon-holder i{
+    color: #ffff;
+}
+
+.antic h3{
+    color: #ffff;
+}
+
+.antic ul{
+    width: 0px;
+    height: 0px;
+    color: #ffff;
+}
+.ichol{
+  width: 0px;
+  height: 0px;
+  color: transparent;
+  border: 0px;
+}
+
+/* ==Section one ends here== */
+    
+
+/* ==Section two starts here== */
+.parent2{
+  /* display: flex; */
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.left-content{
+  width: 100%;
+}
+
+
+.onecon{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.twocon{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* ==Section two ends here== */
+}
