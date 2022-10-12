@@ -188,6 +188,10 @@ ul {
 .twocon{
   display: flex;
 }
+
+.con{
+  padding: 20px;
+}
 .con h6{
   color: #a06056;
   font-family: 'Varta';
@@ -196,6 +200,7 @@ ul {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.2px;
+  padding-bottom: 10px;
 }
 
 .con-text{
