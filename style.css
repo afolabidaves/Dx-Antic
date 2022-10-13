@@ -200,8 +200,8 @@ nav-brand span {
   display: block;
   text-decoration: none;
   color: #ffff;
-  padding: 20px 18px;
-  font-size: 16px;
+  padding: 20px 10px;
+  /* font-size: 16px; */
 }
 .mobile-links-content a:hover {
   background: #534B42;
