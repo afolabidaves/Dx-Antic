@@ -109,6 +109,7 @@ ul {
   align-items: center;
   background: transparent;
   display: none;
+  padding-top: 40px;
 }
 
 .nav-brand {
