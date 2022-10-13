@@ -5,6 +5,9 @@
   font-family: "Lato", sans-serif;
 }
 
+/* body{
+  height: 700px;
+} */
 /* === Section one starts here== */
 
 .parent1 {
@@ -16,7 +19,6 @@
 .maincont {
   display: flex;
   flex-direction: column;
-  border: 3px solid yellowgreen;
   height: 100%;
   width: 55%;
   margin: 0 auto;
@@ -105,6 +107,7 @@ ul {
   width: 50%;
   background: url(./img/header.png);
   background-repeat: no-repeat;
+  display: flex;
 }
 
 .ichol {
@@ -116,6 +119,15 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+}
+
+.move-abeg{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 .ichol i {
@@ -135,18 +147,16 @@ ul {
 
 .parent2{
     background: hwb(33 91% 5%);
-    border: 3px solid brown;
     display: flex;
 }
 
 .left-content {
   width: 50%;
-  border: 3px solid black;
   padding: 30px;
+  padding-top: 45px;
 }
 
 .cont-hold {
-    border: 3px solid #a06056;
     width: 70%;
     align-items: center;
     margin: 0 auto;
@@ -167,7 +177,7 @@ ul {
   font-size: 15px;
   align-items: center;
   display: flex;
-  line-height: 60px;
+  margin-top: 40px;
 }
 
 .link-hold i{
@@ -190,7 +200,7 @@ ul {
 }
 
 .con{
-  padding: 20px;
+  padding: 10px 22px;
 }
 .con h6{
   color: #a06056;
@@ -209,9 +219,91 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 35px;
 }
 
 /* section two right ends here */
 
 /* <!-- section two ends here --> */
+
+
+/* <!-- section three starts here --> */
+
+.footer{
+  display: flex;
+}
+
+.holdet{
+  width: 50%;
+  padding: 30px;
+}
+
+.holds{
+  margin: 0 auto;
+  width: 70%;
+  border: 3px solid #a06056;
+}
+
+.link-holds {
+  color: #a06056;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+}
+
+.intruction{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-size: 35px;
+  line-height: 40px;
+  color: #121212;
+  order: 0;
+}
+
+.inform{
+  font-family: 'Varta';
+  color: rgba(112, 100, 88, 0.9);
+  order: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+/* cta section starts here */
+
+.cta-form {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-form button {
+  padding: 15px 20px;
+  background: #534B42;
+  color: #F3EEE8;
+  border: 2px solid var(--main-color);
+}
+
+.cta-form input {
+  padding: 15px 10px;
+  width: 250px;
+  outline: none;
+  transition: all 0.9s ease;
+  background: rgba(243, 238, 232, 0.5);
+  border: 1px;
+}
+
+.cta-form input:hover {
+  width: 300px;
+}
+
+.okay{
+  margin: auto auto;
+}
+
+
+/* cta section ends here */
+/* <!-- section three ends here --> */
