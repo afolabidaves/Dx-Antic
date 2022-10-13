@@ -18,6 +18,10 @@
   .parent1 p {
     color: #ffff;
   }
+
+  .home{
+    font-size: medium;
+  }
   .content-text {
     background: url(./img/header.png);
     background-size: cover;
@@ -31,9 +35,7 @@
     height: 100%;
   }
   .content-img {
-    content: none;
-    width: 0px;
-    height: 0;
+   display: none;
   }
 
   .content2{
@@ -49,7 +51,7 @@
   }
 
   .cont {
-    font-size: 45px;
+    font-size: 36px;
     line-height: 40px;
     height: 120px;
   }
@@ -95,11 +97,11 @@
   }
 
   .onecon p{
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .onecon h6{
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .twocon {
