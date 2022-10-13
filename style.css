@@ -241,7 +241,7 @@ ul {
 .holds{
   margin: 0 auto;
   width: 70%;
-  border: 3px solid #a06056;
+  /* border: 3px solid #a06056; */
 }
 
 .link-holds {
