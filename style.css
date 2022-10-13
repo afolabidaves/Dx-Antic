@@ -99,6 +99,124 @@ ul {
   margin: 60px 0;
 }
 
+
+/* ===mobile section== */
+
+.nav-mobile {
+  border: 2px solid #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  background: transparent;
+  display: none;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #ffff;
+}
+
+nav-brand span {
+  /* font-weight: bolder; */
+  margin-left: 10px;
+}
+
+.hamburger-container {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+/* ======= */
+.menu {
+  width: 100%;
+  /* background: #ffff; */
+  height: 3px;
+  position: relative;
+}
+
+.menu::before {
+  content: "";
+  background: #ffff;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  transform: translateY(-0px);
+}
+.menu::after {
+  content: "";
+  background: #ffff;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  transform: translateY(10px);
+}
+
+.showburger .menu {
+  background: transparent;
+}
+
+.showburger .menu::before {
+  transform: rotate(45deg);
+  background: #ffff;
+}
+
+.showburger .menu::after {
+  transform: rotate(-45deg);
+  background: #ffff;
+}
+/* ======== */
+
+.mobile-links-container {
+  transition: all 0.4s ease;
+  transform: translateX(102%);
+  width: 100%;
+  height: 40%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  margin-top: 70px;
+}
+
+.showmobilelink {
+  transform: translateX(0);
+  /* display: block; */
+}
+
+.mobile-links-content ul {
+  list-style: none;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+}
+
+
+.mobile-links-content a {
+  display: block;
+  text-decoration: none;
+  color: #ffff;
+  padding: 20px 18px;
+  font-size: 16px;
+}
+.mobile-links-content a:hover {
+  background: #534B42;
+  color: #ffff;
+}
+
+.mobile-links-content .active-link {
+  background: transparent;
+  color: white;
+}
+
+/* ======== */
+
+
 /* === Section one ends here== */
 
 /* === Section one right starts here== */
@@ -282,9 +400,9 @@ ul {
 
 .cta-form button {
   padding: 15px 20px;
-  background: #534B42;
+  background: #a06056;
   color: #F3EEE8;
-  border: 2px solid var(--main-color);
+  border: 2px solid transparent;
 }
 
 .cta-form input {
@@ -293,6 +411,7 @@ ul {
   outline: none;
   transition: all 0.9s ease;
   background: rgba(243, 238, 232, 0.5);
+  text-align: center;
   border: 1px;
 }
 
@@ -307,3 +426,53 @@ ul {
 
 /* cta section ends here */
 /* <!-- section three ends here --> */
+
+
+footer {
+  margin-top: 20PX;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  display: flex;
+  color: #F3EEE8;
+  background: #a06056;
+}
+
+footer p{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-family: 'Merriweather';
+}
+
+.footer-icon-container {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-icons {
+  border: 2px solid #F3EEE8;
+  align-items: center;
+  height: 40px;
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.footer-icons:hover {
+  border: 2px solid #a06056;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  transition: all 0.9s ease;
+}
+
+.footer-icon-container a {
+  text-decoration: none;
+  color: #F3EEE8;
+}
+/* <!-- Footer section ends here --> */

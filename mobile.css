@@ -8,6 +8,13 @@
     text-align: center;
   }
 
+   .nav-mobile{
+        display: flex;
+    }
+
+    .antic{
+      display: none;       
+  }
   .parent1 p {
     color: #ffff;
   }
@@ -27,6 +34,10 @@
     content: none;
     width: 0px;
     height: 0;
+  }
+
+  .content2{
+    padding-top: 40px;
   }
 
   .maincont {
@@ -57,11 +68,9 @@
   }
 
   .ichol {
-    width: 0px;
-    height: 0px;
-    color: transparent;
-    border: 0px;
+    display: none;
   }
+
 
   /* ==Section one ends here== */
 
@@ -119,11 +128,7 @@
   }
 
   .holdet{
-    visibility: collapse;
-  }
-  
-  .holds{
-    visibility: collapse;
+    display: none;
   }
 
   .cta-form{
