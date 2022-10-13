@@ -103,7 +103,6 @@ ul {
 /* ===mobile section== */
 
 .nav-mobile {
-  border: 2px solid #ffff;
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
